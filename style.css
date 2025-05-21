@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(image/18775842_6045432.jpg);
+    background-size: cover;         /* ensures it covers the entire area */
+    background-position: center;    /* centers the image */
+    background-repeat: no-repeat;   /* prevents repeating */
+    padding: 0 20px;
+}
+.container-form{
+    margin: 20px 0;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.171);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.089);
+    color: #ffffff8e;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    min-width: 100px;
+    align-items: center;
+}
+
+.login{
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+label{
+    color: aliceblue;
+}
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.267);
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+}
+.frgt{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(233, 229, 229);
+}
+.login2{
+    color: white;
+}
+
+.icon{
+    background-color: white;
+    color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+}
+.signup{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.signup .p{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+input:focus{
+    background: #cececea4;
+    outline: none;
+}
+input:invalid{
+    border: 1px solid red;
+    outline: none;
+
+}
